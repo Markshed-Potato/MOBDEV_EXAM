@@ -13,24 +13,19 @@ class LoginPresenter(
             view?.showEmailError("Email cannot be empty.")
             return
         }
-
         if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email.trim()).matches()) {
             view?.showEmailError("Please enter a valid email address.")
             return
         }
-
         if (password.trim().isEmpty()) {
             view?.showPasswordError("Password cannot be empty.")
             return
         }
-
         if (password.length < 6) {
             view?.showPasswordError("Password must be at least 6 characters.")
             return
         }
-
         val isValid = repository.validateCredentials(email.trim(), password.trim())
-
         if (isValid) {
             view?.onLoginSuccess()
         } else {
