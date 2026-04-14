@@ -1,14 +1,14 @@
-package com.example.myapplication.screens.login
+package com.example.agrilink.screens.login
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.R
-import com.example.myapplication.data.LoginRepository
-import com.example.myapplication.utils.setFieldError
-import com.example.myapplication.utils.showToast
-import com.example.myapplication.utils.trimmedText
+import com.example.agrilink.R
+import com.example.agrilink.data.LoginRepository
+import com.example.agrilink.utils.setFieldError
+import com.example.agrilink.utils.showToast
+import com.example.agrilink.utils.trimmedText
 
 class LoginActivity : AppCompatActivity(), LoginContract.View {
 

@@ -4,8 +4,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
-    compileSdk = 34
+    namespace = "com.example.agrilink"
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.myapplication"

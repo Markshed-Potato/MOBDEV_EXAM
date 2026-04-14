@@ -1,6 +1,6 @@
-package com.example.myapplication.screens.login
+package com.example.agrilink.screens.login
 
-import com.example.myapplication.data.LoginRepository
+import com.example.agrilink.data.LoginRepository
 
 class LoginPresenter(
     private var view: LoginContract.View?,

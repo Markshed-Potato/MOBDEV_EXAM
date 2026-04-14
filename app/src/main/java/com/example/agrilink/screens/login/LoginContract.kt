@@ -1,4 +1,4 @@
-package com.example.myapplication.screens.login
+package com.example.agrilink.screens.login
 
 interface LoginContract {
 
